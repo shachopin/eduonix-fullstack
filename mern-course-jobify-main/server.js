@@ -22,7 +22,7 @@ import authRouter from './routes/authRoutes.js'
 import jobsRouter from './routes/jobsRoutes.js'
 
 // middleware
-import notFoundMiddleware from './middleware/not-found.js'
+import notFoundMiddleware from './middleware/not-found.js' //because you are using ES6 module in nodejs, not like in React, .js is needed here
 import errorHandlerMiddleware from './middleware/error-handler.js'
 import authenticateUser from './middleware/auth.js'
 
